@@ -19,14 +19,14 @@ const Container = styled.div`
   transition: color 0.4s ease 0s;
   
   a {
-    color: rgb(255, 255, 255);
+    color: #000;
     display: flex;
     align-items: center;
     font-weight: 700;
     font-size: .875rem;
 
     &:hover {
-      border-bottom: 2px solid #fff;
+      border-bottom: 2px solid #000;
       transition: border-bottom 0.4s ease 0s;
     }
   }

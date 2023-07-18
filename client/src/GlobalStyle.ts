@@ -134,4 +134,11 @@ export const GlobalStyle = createGlobalStyle`
   a {
     text-decoration: none;
   }
+
+  #root {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+  }
 `;

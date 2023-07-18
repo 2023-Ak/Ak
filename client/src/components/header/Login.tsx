@@ -34,10 +34,10 @@ const Button = styled.div`
   margin-left: 0.625rem;
   font-size: .875rem;
   background: transparent;
-  color: rgb(255, 255, 255);
+  color: #000;
 
   &:hover {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.5);
     transition: color 0.4s ease 0s;
   }
 `;

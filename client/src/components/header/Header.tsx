@@ -26,8 +26,8 @@ const Container = styled.div`
   left: 0rem;
   top: 0rem;
   right: 0rem;
-  z-index; 10;
-  background-color: rgb(161, 204, 209);
+  z-index: 10;
+  background-color: #ffffff97;
 `;
 
 const Wrap = styled.div`
@@ -36,7 +36,6 @@ const Wrap = styled.div`
 `;
 
 const InnerWrap = styled.div`
-  padding: 0rem 3.125rem 0rem 3.125rem;
   position: relative;
   display: flex;
   align-items: center;
