@@ -4,9 +4,11 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <Container>
-      <Link to='/'>HOME</Link>
-      <Link to='/'>CUMMUNITY</Link>
-      <Link to='/'>NOTICE</Link>
+      <HomeAndNotice to='/'>HOME</HomeAndNotice>
+
+      <Community to='/'>COMMUNITY</Community>
+      
+      <HomeAndNotice to='/'>NOTICE</HomeAndNotice>
     </Container>
   );
 };
@@ -14,24 +16,32 @@ const Navbar = () => {
 export default Navbar;
 
 const Container = styled.div`
-  position: relative;
   display: flex;
-  transition: color 0.4s ease 0s;
-  
+  align-items: center;
+  gap: 1rem;
+
   a {
-    color: #000;
-    display: flex;
-    align-items: center;
     font-weight: 700;
-    font-size: .875rem;
+    text-decoration: none;
+    color: #000;
 
     &:hover {
-      border-bottom: 2px solid #000;
-      transition: border-bottom 0.4s ease 0s;
+      color: rgba(0, 0, 0, 0.5);
+      transition: color 0.4s ease 0s;
     }
   }
+`;
 
-  a + a {
-    margin-left: 1.5rem;
-  }
+const HomeAndNotice = styled(Link)`
+  display: flex;
+  padding: .5rem .5rem .5rem .75rem;
+  align-items: center;
+  background: #FFF;
+`;
+
+const Community = styled(Link)`
+  display: flex;
+  padding: .5rem .75rem;
+  align-items: center;
+  background: #fff;
 `;

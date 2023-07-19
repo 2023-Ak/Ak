@@ -4,13 +4,10 @@ import { styled } from "styled-components";
 const Login = () => {
   return (
     <Container>
-      <Link to='/'>
-        <Button>Login</Button>
-      </Link>
-      
-      <Link to='/'>
-        <Button>Join</Button>
-      </Link>
+      <Wrap>
+        <Text to='/'>Login</Text>
+        <Text to='/'>Join</Text>
+      </Wrap>
     </Container>
   );
 };
@@ -19,22 +16,29 @@ export default Login;
 
 const Container = styled.div`
   display: flex;
-  align-items: center;
-  margin-left: 1.5rem;
+  width: 25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 2rem;
+  flex-shrink: 0;
+  align-self: stretch;
 `;
 
-const Button = styled.div`
-  height: 2.25rem;
+const Wrap = styled.div`
   display: flex;
+  justify-content: flex-end;
   align-items: center;
-  padding: 0rem .875rem 0rem .875rem;
-  font-weight: 800;
-  border-radius: 1.125rem;
-  opacity: 0.8;
-  margin-left: 0.625rem;
-  font-size: .875rem;
-  background: transparent;
+  gap: 2rem;
+`;
+
+const Text = styled(Link)`
   color: #000;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -.0338rem;
 
   &:hover {
     color: rgba(0, 0, 0, 0.5);

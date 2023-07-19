@@ -7,13 +7,9 @@ const Header = (props: any) => {
   return (
     <Container>
       <Wrap>
-        <InnerWrap>
-          <Logo />
-
-          <Navbar />
-
-          <Login />
-        </InnerWrap>
+        <Logo />
+        <Navbar />
+        <Login />
       </Wrap>
     </Container>
   );
@@ -22,25 +18,17 @@ const Header = (props: any) => {
 export default Header;
 
 const Container = styled.div`
-  position: fixed;
-  left: 0rem;
-  top: 0rem;
-  right: 0rem;
-  z-index: 10;
-  background-color: #ffffff97;
+  display: flex;
+  width: 100%;
+  padding: 1.5rem 0rem;
+  flex-direction: column;
+  align-items: center;
+  gap: .625rem;
 `;
 
 const Wrap = styled.div`
-  position: relative;
-  background-color: transparent;
-`;
-
-const InnerWrap = styled.div`
-  position: relative;
   display: flex;
+  width: 87.5rem;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-around;
-  height: 4rem;
-  width: 100%;
-  color: rgb(255, 255, 255);
 `;
