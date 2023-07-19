@@ -1,6 +1,7 @@
 import { GlobalStyle } from "./GlobalStyle";
 import Header from "./components/header/Header";
 import Router from "./Router";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <GlobalStyle />
       <Header />
       <Router />
+      <Footer />
     </>
   );
 }

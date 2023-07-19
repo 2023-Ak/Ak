@@ -18,6 +18,7 @@ const Header = (props: any) => {
 export default Header;
 
 const Container = styled.div`
+  position: fixed;
   display: flex;
   width: 100%;
   padding: 1.5rem 0rem;
