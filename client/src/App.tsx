@@ -1,7 +1,15 @@
-import React from "react";
+import { GlobalStyle } from "./GlobalStyle";
+import Header from "./components/header/Header";
+import Router from "./Router";
 
 function App() {
-  return <div>Ak!!!</div>;
+  return (
+    <>
+      <GlobalStyle />
+      <Header />
+      <Router />
+    </>
+  );
 }
 
 export default App;
