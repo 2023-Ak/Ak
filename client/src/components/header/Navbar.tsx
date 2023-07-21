@@ -6,7 +6,7 @@ const Navbar = () => {
     <Container>
       <HomeAndNotice to='/'>HOME</HomeAndNotice>
 
-      <Community to='/'>COMMUNITY</Community>
+      <Community to='/community'>COMMUNITY</Community>
       
       <HomeAndNotice to='/'>NOTICE</HomeAndNotice>
     </Container>
