@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+
 import Main from "../components/main-section/Main";
 import LinkedPage from "../components/main-section/LinkedPage";
 

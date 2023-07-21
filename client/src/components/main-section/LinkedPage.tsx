@@ -1,8 +1,10 @@
 import { styled } from "styled-components";
+import { Link } from "react-router-dom";
+
 import { ReactComponent as FrontEnd } from '../../assets/frontend.svg';
 import { ReactComponent as BackEnd } from '../../assets/backend.svg';
 import { ReactComponent as Notice } from '../../assets/notice.svg';
-import { Link } from "react-router-dom";
+
 
 const LinkedPage = () => {
   return (

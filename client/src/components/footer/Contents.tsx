@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+
 import { ReactComponent as LogoIcon } from '../../assets/logo-icon.svg';
 import LinkedPage from "./LinkedPage";
 

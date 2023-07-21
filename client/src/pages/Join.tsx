@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+
 import Form from "../components/form/Form";
 
 const Join = () => {

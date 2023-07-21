@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+
 import FormTitle from "./FormTitle";
 import { ReactComponent as KaKaoIcon } from "../../assets/kakao-icon.svg";
 import { ReactComponent as NaverIcon } from "../../assets/naver-icon.svg";

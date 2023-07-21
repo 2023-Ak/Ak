@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+
 import Background from '../../assets/background.png';
 
 const Right = () => {

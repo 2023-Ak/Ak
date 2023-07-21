@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+
 import Contents from "./Contents";
 
 const Footer = () => {

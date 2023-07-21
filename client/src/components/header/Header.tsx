@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+
 import Login from "./Login";
 import Logo from "./Logo";
 import Navbar from "./Navbar";
@@ -25,6 +26,7 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   gap: .625rem;
+  background-color: #fff;
 `;
 
 const Wrap = styled.div`
